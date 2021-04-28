@@ -1,5 +1,7 @@
 var procesadores = require("./procesadores.js");
 
+
+function main() {
 var textoAEvaluar = process.argv;
 console.log("----------------------------------------------");
 console.log("TEXTO ORIGINAL");
@@ -25,7 +27,6 @@ console.log("----------------------------------------------");
 console.log("RESULTADO FINAL");
 console.log("----------------------------------------------");
 var resultadoFinal = procesadores.arregloDefinitivo(nuevaCollectionsBis);
-console.log(resultadoFinal);
-function main() {}
+console.log(resultadoFinal);}
 
 main();
